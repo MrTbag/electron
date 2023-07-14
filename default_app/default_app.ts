@@ -90,7 +90,7 @@ async function createWindow (backgroundColor?: string) {
 }
 
 export const loadURL = async (appUrl: string) => {
-  mainWindow = await createWindow();
+  mainWindow = await ;
   mainWindow.loadURL(appUrl);
   mainWindow.focus();
 };
